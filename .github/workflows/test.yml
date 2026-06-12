@@ -2,11 +2,11 @@ name: first_workflow
 
 on:
     push:
-        branches: [main]
+        branches: [master]
         paths:
             - "src/**"
     pull_request:
-        branches: [main]
+        branches: [master]
         paths:
             - "src/**"
     
